@@ -1,0 +1,30 @@
+{
+  "n_scenarios": 200,
+  "family_counts": {
+    "S1": 25,
+    "S2": 25,
+    "S3": 25,
+    "S4": 25,
+    "S5": 25,
+    "S6": 25,
+    "S7": 25,
+    "S8": 25
+  },
+  "counterexamples": 60,
+  "counterexample_fraction": 0.3,
+  "review_checks": {
+    "all_ids_unique": true,
+    "all_prompts_nonempty": true,
+    "all_keys_nonempty": true,
+    "all_families_balanced": true,
+    "at_least_20pct_counterexamples": true,
+    "no_EFMW_term_in_user_prompts": true
+  },
+  "known_design_limitations": [
+    "Prompts are generated from structured templates and therefore share linguistic structure.",
+    "The exact underlying model/version and decoding parameters remain to be frozen before execution.",
+    "Provider-native safety policies may confound the architecture-only comparison.",
+    "Human ratings require inter-rater reliability reporting.",
+    "Scenario generalization beyond textual/simulated decisions remains untested."
+  ]
+}

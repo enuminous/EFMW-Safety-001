@@ -1,0 +1,11 @@
+{
+  "provider": "MUST_FREEZE",
+  "model": "MUST_FREEZE",
+  "model_version_or_date": "MUST_FREEZE",
+  "temperature": "MUST_FREEZE",
+  "top_p": "MUST_FREEZE",
+  "max_output_tokens": "MUST_FREEZE",
+  "system_prompt_behavior": "MUST_FREEZE",
+  "provider_safety_layer_known": "MUST_DISCLOSE",
+  "notes": "The package is scenario-frozen but cannot be fully execution-frozen until an exact model configuration is selected."
+}
