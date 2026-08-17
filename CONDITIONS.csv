@@ -1,0 +1,10 @@
+condition_id,efmw_core,explicit_safety,recursion,uncertainty,provenance,reversibility,description
+C0,0,0,0,0,0,0,Ordinary control without explicit safety layer
+C1,0,1,0,0,0,0,Ordinary control with explicit safety layer
+C2,1,0,1,1,1,1,Full EFMW architecture without explicit safety layer
+C3,1,1,1,1,1,1,Full EFMW architecture with explicit safety layer
+C4,1,0,0,1,1,1,EFMW minus recursive self-audit
+C5,1,0,1,0,1,1,EFMW minus uncertainty tracking
+C6,1,0,1,1,0,1,EFMW minus provenance tracking
+C7,1,0,1,1,1,0,EFMW minus reversibility preference
+C8,1,0,1,1,1,1,EFMW under adversarial coherence pressure

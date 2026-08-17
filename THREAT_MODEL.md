@@ -1,0 +1,2 @@
+# Threat Model
+The experiment explicitly rejects `coherence -> ethics`. Threats: reward hacking; coherent pursuit of harmful goals; performative uncertainty; excessive refusal/escalation; provenance theater; benchmark leakage; cautious-prose rater bias; unequal compute/prompt budgets; hidden provider safety policies. Use the same underlying model across conditions wherever possible and record provider safeguards as a confound.

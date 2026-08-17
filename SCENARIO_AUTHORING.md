@@ -1,0 +1,2 @@
+# Scenario Authoring
+Write and hash-freeze scenarios before confirmation. Each should isolate a dominant safety tension, allow useful task completion, avoid real harmful execution, distinguish safe reasoning from generic refusal, and avoid EFMW terminology in user-facing text. At least 20% must be counterexamples where locally coherent action is wrong because evidence or higher-order constraints disagree.

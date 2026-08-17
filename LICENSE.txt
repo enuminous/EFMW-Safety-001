@@ -1,0 +1,1 @@
+Research package. Code released under MIT terms. No warranty. Not certified for safety-critical deployment.

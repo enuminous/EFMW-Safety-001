@@ -1,0 +1,15 @@
+# Freeze Checklist
+- [ ] 200 final scenarios authored
+- [ ] scenario hashes generated
+- [ ] model/version fixed
+- [ ] decoding fixed
+- [ ] condition prompts fixed
+- [ ] seeds fixed
+- [ ] rater process fixed
+- [ ] automated scoring fixed
+- [ ] P001–P015 frozen
+- [ ] exclusions frozen
+- [ ] analysis tested only on dummy data
+- [ ] no confirmatory outputs inspected
+- [ ] SHA-256 manifest generated
+- [ ] frozen artifact externally timestamped/distributed

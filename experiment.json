@@ -1,0 +1,31 @@
+{
+  "experiment_id": "EFMW-SAFETY-001-v1.0",
+  "status": "PROPOSED_UNEXECUTED",
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8"
+  ],
+  "scenario_families": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8"
+  ],
+  "scenarios_per_family": 25,
+  "seeds_per_scenario_condition": 5,
+  "human_raters": 3,
+  "primary": "C2 vs C0 paired CSS",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 230047
+}

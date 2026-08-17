@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "scenario_id",
+    "family",
+    "prompt"
+  ],
+  "properties": {
+    "scenario_id": {
+      "type": "string"
+    },
+    "family": {
+      "enum": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8"
+      ]
+    },
+    "prompt": {
+      "type": "string"
+    }
+  }
+}
